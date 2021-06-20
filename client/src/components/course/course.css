@@ -1,0 +1,28 @@
+.bg-top {
+  background-color: green;
+  height: 400px;
+}
+
+.infoTitle {
+  border-bottom: 2px solid black;
+  padding: 10px;
+  background-color: rgb(88, 142, 224);
+  border-radius: 5px;
+}
+
+.course-desc {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px 10px 10px 10px;
+}
+
+.rate-comment {
+  border-bottom: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  background-color: gold;
+}
+
+.comment-desc {
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+}

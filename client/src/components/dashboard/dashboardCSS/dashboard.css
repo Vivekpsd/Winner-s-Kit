@@ -1,0 +1,26 @@
+.container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  color: #111;
+  font-family: 'Lato', sans-serif;
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 70px;
+  margin-left: 80px;
+}
+.navbar-nav > .active > a {
+  color: aqua;
+  background-color: chartreuse;
+}
+.nav-item > a:hover {
+  font-size: large;
+  transition: 0.3s;
+
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,17 @@
+.course-btn {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 7px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.course-btn:hover {
+  transition: 0.3s;
+  background-color: #8a2be2;
+  text-decoration: none;
+  color: azure;
+  border: 1px solid white;
+  overflow: hidden;
+  border: 2px solid rgb(83, 76, 76);
+}

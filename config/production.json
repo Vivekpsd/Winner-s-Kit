@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://vivek123:vivek123@e-cms.syr8d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtToken":"mysecrettoke"
+}

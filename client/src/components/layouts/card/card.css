@@ -1,0 +1,25 @@
+.card-holder {
+    flex: 1 0 20%;
+    margin: 10px;
+}
+
+.card-holder img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cource-card {
+    word-wrap: break-word;
+    line-height: .7;
+    border-radius: 5px;
+    width: 253px;
+}
+
+.cource-card h6 {
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}

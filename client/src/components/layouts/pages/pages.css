@@ -1,0 +1,135 @@
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  
+.heading-bts {
+    margin-top: 40px;
+}
+  
+.heading-bts h3 {
+    font-weight: 700;
+}
+  
+.heading-bts p {
+    color: #2b2c34;
+}
+
+.about-info {
+  margin-top: 50px;
+}
+
+.info-holder img {
+  width: 200px;
+  height: auto;
+}
+
+.info-holder {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-holder .info {
+  margin-left: 90px;
+}
+
+.about-info p {
+    margin-top: 10px;
+}
+
+.th {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tle img {
+    background-color: #ebebfa;
+    padding: 9px;
+    border-radius: 50%;
+}
+
+.tle .hp {
+    line-height: .7;
+    margin-left: 12px;
+}
+
+.followus {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-icons img {
+  width: 50px;
+  height: auto;
+  margin-left: 15px;
+  background-color: #ebebfa;
+  padding: 6px;
+  border-radius: 50%;
+  transition: .1s;
+}
+
+.social-icons img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.followus .social-icons {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-holder {
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+.collumn {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 10px;
+}
+
+.collumn img {
+  margin-top: 15px;
+  vertical-align: middle;
+  width: 100%;
+  opacity: .5;
+  transition: .3s;
+}
+
+.collumn img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+@media screen and (max-width:800px) {
+  
+  .collumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  
+  .collumn {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.courses-cards {
+  display: flex;
+  justify-content: space-between;
+}
